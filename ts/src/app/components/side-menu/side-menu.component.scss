@@ -1,0 +1,41 @@
+.sidemenu {
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+  clip-path: inset(0px -15px 0px 0px);
+  height: 100%;
+}
+
+.sidemenu .sidemenu-title {
+  background: linear-gradient(to bottom, var(--color-08), var(--color-07));
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.1975rem;
+  padding-top: 16.43px;
+  padding-bottom: 16.43px;
+}
+
+.sidemenu .sidemenu-menu .sidemenu-menu-item {
+  border-bottom: 2px solid var(--color-17);
+  position: relative;
+}
+
+.sidemenu .sidemenu-menu .sidemenu-menu-item:hover::before {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 33px;
+  background: linear-gradient(to bottom, var(--color-08), var(--color-07));
+  position: absolute;
+}
+
+.sidemenu .sidemenu-menu .sidemenu-menu-item a {
+  display: block;
+  color: var(--color-01);
+  padding-left: 25px;
+  font-size: 0.94rem;
+  line-height: 2.05rem;
+}
+
+.sidemenu .sidemenu-menu .sidemenu-menu-item a:hover {
+  background: var(--color-02);
+}
