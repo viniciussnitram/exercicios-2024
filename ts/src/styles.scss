@@ -1,4 +1,9 @@
 :root {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  width: 1366px;
+  margin: 0px auto;
+
   --color-00: #FFFFFF;
   --color-01: #725C5C;
   --color-02: #FDF1EB;
@@ -79,4 +84,30 @@
 
 .color-15 {
   color: var(--color-15);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
